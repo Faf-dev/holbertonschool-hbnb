@@ -25,7 +25,6 @@ header {
 
 nav a {
     display: flex;
-    justify-content: space-between;
     color: #fff;
     margin-left: auto;
     text-decoration: none;
