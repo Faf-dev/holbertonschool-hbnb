@@ -7,29 +7,85 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: Arial, sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 body {
     background-color: #fafaf8;
     color: #333;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 header {
-    background-color: #333;
+    background-color: #efefef;
     color: #fff;
     padding: 1rem;
-    align-items: center;
 }
 
+nav {
+    display: flex;
+    align-items: center;
+    margin-left: 1rem;
+}
 
 nav a {
-    display: flex;
     color: #fff;
-    margin-left: auto;
+    margin-left: 1rem;
     text-decoration: none;
 }
 
+#logo-nav {
+    float: left;
+}
+
+#login-link {
+    margin-left: auto;
+    margin-right: 2rem;
+    color: black;
+}
+
 main {
+    text-align: center;
     padding: 2rem;
+}
+
+#places-list {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.place-card {
+    width: 250px;
+    padding: 30px;
+    margin: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 5px 0px 10px #cdcdcd;
+}
+
+.details-button {
+    margin-top: 20px;
+    margin-bottom: -20px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+}
+
+.details-button a {
+    text-decoration: none;
+    color: black;
+}
+
+h1 {
+    padding: 20px;
+}
+
+footer {
+    margin-top: auto;
+    background-color: #efefef;
+    text-align: center;
+    padding: 1rem;
 }
