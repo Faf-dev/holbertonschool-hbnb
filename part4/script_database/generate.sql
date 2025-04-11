@@ -1,7 +1,4 @@
--- Table User
-DROP DATABASE IF EXISTS hbnb_db;
-CREATE DATABASE IF NOT EXISTS hbnb_db ;
-USE hbnb_db;
+
 
 CREATE TABLE users (
     id CHAR(36) PRIMARY KEY,
